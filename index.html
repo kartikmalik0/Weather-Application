@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/71d76dc856.js" crossorigin="anonymous"></script>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="please enter a place" spellcheck="false" id="entered-city">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" ></i></button>
+        </div>
+        <div class="err">
+            <h4>Invalid City Name !!</h4>
+        </div>
+        <div class="wheather">
+            <img class="wheather-icon" src="/weather-app-img/images/rain.png" alt="">
+            <h1 class="temp">33°C</h1>
+            <h2 class="city-name">New York</h2>
+
+            <!-- details section of wheather -->
+
+            <div class="about">
+                <div class="col">
+                    <img src="/weather-app-img/images/humidity.png" alt="">
+                </div>
+                <div class="text-material">
+                    <p class="humidity">50%</p>
+                    <p>humidity</p>
+                </div>
+                <div class="col">
+                    <img src="/weather-app-img/images/wind.png" alt="">
+                </div>
+                <div>
+                    <p class="wind">15km/h</p>
+                    <p>wind speed</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
